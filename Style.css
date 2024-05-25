@@ -70,6 +70,7 @@ nav {
   background-repeat: no-repeat;
   background-size: max(700px, 100vw);
   height: 80vh;
+  overflow: hidden;
   /* position: absolute;  */
 }
 
@@ -402,6 +403,8 @@ form h3{
   margin: auto;
 }
 
+
+
 /* Footer */
 
 footer{
@@ -411,8 +414,37 @@ footer{
   color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem 8rem;
 }
 
-.footer-links{
-  
+footer button{
+  width: 8em;
+}
+
+.footer-btn{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.footer-links ul{
+  width: 70vw;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0.5rem auto;
+  margin-top: 5rem ;
+}
+
+.footer-links ul li{
+  font-size: 14px;
+  margin: 0.5rem  6rem;
+  color: rgba(255, 255, 255, 0.7);
+  width: 7rem;
+  text-decoration: underline;
+  &:hover{
+    cursor:pointer
+  }
 }
