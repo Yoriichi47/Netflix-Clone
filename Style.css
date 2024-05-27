@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Reddit Sans";
-  /* background-color: black; */
 }
 
 /* Navbar */
@@ -41,7 +40,7 @@ nav {
 }
 
 .btn-1 {
-  padding: 7px 35px;
+  padding: 5px 35px;
   background-color: transparent;
   border: 0.5px solid #e5e5e5;
   font-size: 16px;
@@ -422,6 +421,13 @@ footer button{
   width: 8em;
 }
 
+#btn-footer{
+  margin: 0;
+  border-radius: 5px;
+  color: #e5e5e5;
+  font-weight: bold;
+}
+
 .footer-btn{
   display: flex;
   justify-content: flex-start;
@@ -430,19 +436,20 @@ footer button{
 }
 
 .footer-links ul{
-  width: 70vw;
-  display: flex;
+  width: 60vw;
+  display: grid;
   list-style-type: none;
-  flex-wrap: wrap;
-  margin: 0.5rem auto;
-  margin-top: 5rem ;
+  margin: auto;
+  margin-top: 5.5rem;
+  margin-bottom: 1rem;
+  grid-template-columns: auto auto auto auto;
+  gap: 1.3rem;
 }
 
 .footer-links ul li{
+  /* margin: 0.5rem 0; */
   font-size: 14px;
-  margin: 0.5rem  6rem;
   color: rgba(255, 255, 255, 0.7);
-  width: 7rem;
   text-decoration: underline;
   &:hover{
     cursor:pointer
