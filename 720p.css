@@ -1,0 +1,217 @@
+/* NAVBAR */
+
+nav {
+  width: 100vw;
+  padding: 25px 30px;
+}
+
+.nav-logo {
+  width: 90px;
+}
+
+#btn {
+  font-size: 14px;
+  margin: 0px 5px;
+}
+
+.nav-buttons {
+  margin: 0;
+  display: flex;
+}
+
+.btn-1 {
+  display: none;
+}
+
+.btn-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  color: #e5e5e5;
+  background-color: transparent;
+  border: 2px solid #595858;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+/* Main section */
+
+.main-container {
+  background: url("/Media/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.main-page {
+  margin-top: 2.5rem;
+}
+
+.main-page h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main-page p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+form {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+form h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0px 55px;
+}
+
+.form-details {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+}
+
+.form-input {
+  width: 100%;
+  border-color: #686767;
+  padding: 0.9rem 0.8rem;
+}
+
+.form-button {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+}
+
+.form-button i {
+  padding: 0 0.5rem;
+}
+
+/* Section config */
+
+.second-container,
+.fourth-container {
+  flex-direction: column;
+}
+
+.second-container,
+.third-container,
+.fourth-container,
+.fifth-container {
+  height: 50vh;
+  justify-content: space-between;
+}
+
+.second-container-info,
+.third-container-info,
+.fourth-container-info,
+.fifth-container-info {
+  width: 90vw;
+  padding-top: 2rem;
+}
+
+.third-container,
+.fifth-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.second-container-info h2,
+.third-container-info h2,
+.fourth-container-info h2,
+.fifth-container-info h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.second-container-info p,
+.third-container-info p,
+.fourth-container-info p,
+.fifth-container-info p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.second-container-media,
+.third-container-media,
+.fourth-container-media,
+.fifth-container-media {
+  margin: auto;
+  padding: 0;
+}
+
+.second-container-media video {
+  width: 70%;
+  right: 55px;
+  top: 60px;
+}
+
+.third-container-media video{
+    width: 60%;
+        right: 70px;
+        top: 30px;
+}
+
+.second-container-media img,
+.third-container-media img,
+.fourth-container-media img,
+.fifth-container-media img {
+  padding: 0;
+  width: 90vw;
+}
+
+/* FAQ section */
+
+.FAQ {
+  padding: 10px;
+}
+
+.FAQ-heading h2 {
+  width: 90vw;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.FAQ-btns {
+  font-size: 1.2rem;
+  padding: 23px 28px;
+}
+
+.btn-section {
+  width: 90vw;
+  margin: 10px auto;
+}
+
+/* Footer config */
+
+footer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links ul {
+  width: 90vw;
+  margin: 0 auto;
+  grid-template-columns: auto auto;
+}
+
+.footer-btn{
+    width: 90vw;
+}
+
+/* gap */
+
+.gap {
+  height: 5px;
+}

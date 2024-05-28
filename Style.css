@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 
 * {
   margin: 0;
@@ -9,17 +9,13 @@
 
 /* Navbar */
 
-header {
-  margin: 0px 50px;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 70vw;
-  margin: auto;
   padding: 25px 70px;
+  margin: auto;
 }
 
 .nav-logo {
@@ -29,7 +25,7 @@ nav {
 
 .nav-buttons {
   z-index: 3;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 #btn {
@@ -42,7 +38,7 @@ nav {
 .btn-1 {
   padding: 5px 35px;
   background-color: transparent;
-  border: 0.5px solid #e5e5e5;
+  border: 0.5px solid #595858;
   font-size: 16px;
   &:hover {
     cursor: pointer;
@@ -61,6 +57,10 @@ nav {
   }
 }
 
+.btn-3 {
+  display: none;
+}
+
 /* main Container */
 
 .main-container {
@@ -70,7 +70,6 @@ nav {
   background-size: max(700px, 100vw);
   height: 80vh;
   overflow: hidden;
-  /* position: absolute;  */
 }
 
 .main-image {
@@ -91,71 +90,73 @@ nav {
   margin-top: 11rem;
 }
 
-.main-page h1 , p, form{
-    z-index: 3;
+.main-page h1,
+p,
+form {
+  z-index: 3;
 }
 
-.main-page h1{
+.main-page h1 {
   font-size: 3rem;
   font-weight: 900;
 }
 
-.main-page p{
+.main-page p {
   font-size: 1.5rem;
   font-weight: 400;
   margin: 20px 0px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
 
-form h3{
+form h3 {
   font-size: 1.3rem;
   font-weight: normal;
   margin: 10px 0px;
 }
 
-.form-details{
+.form-details {
   display: flex;
   flex-direction: row;
   margin: auto;
   width: 600px;
 }
 
-.form-input{
+.form-input {
   background: transparent;
   color: rgba(255, 255, 255, 0.7);
   width: 60%;
-  padding: 1.1rem 2.7rem ;
+  padding: 1.1rem 2.7rem;
   padding-left: 1rem;
   font-weight: bold;
   font-size: 16px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #595858;
   border-radius: 5px;
 }
 
-.form-button{
-  padding: 0px 2rem ;
+.form-button {
+  padding: 0px 2rem;
   font-size: 1.3rem;
   font-weight: bold;
   background-color: #e50914;
   color: white;
   border-style: none;
   border-radius: 3px;
-  &:hover{
+  &:hover {
     cursor: pointer;
     background-color: #b8030c;
     transition: 0.3s ease-in-out;
   }
 }
 
-.form-button i{
+.form-button i {
   background-color: #e50914;
 }
 
-#form-info{
+#form-info {
   margin: 10px 5px;
 }
 
@@ -168,127 +169,127 @@ form h3{
 
 /* Second Container */
 
-.second-container{
+.second-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   max-width: 100vw;
   height: 65vh;
-  color: white; 
+  color: white;
   background-color: black;
 }
 
-.second-container-media{
+.second-container-media {
   position: relative;
   padding-left: 30px;
 }
 
-.second-container-media img{
+.second-container-media img {
   position: relative;
   width: 30vw;
   z-index: 2;
 }
 
-.second-container-media video{
+.second-container-media video {
   position: absolute;
   width: 75%;
   right: 75px;
   top: 90px;
 }
 
-.second-container-info{
+.second-container-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 30vw;
 }
 
-.second-container-info h2{
+.second-container-info h2 {
   font-size: 3rem;
   font-weight: 900;
   padding-bottom: 20px;
 }
 
-.second-container-info p{
+.second-container-info p {
   flex-wrap: wrap;
   font-size: 1.5rem;
 }
 
 /* Third Container */
 
-.third-container{
+.third-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   max-width: 100vw;
   height: 65vh;
-  color: white; 
+  color: white;
   background-color: black;
 }
 
-.third-container-media{
+.third-container-media {
   position: relative;
   padding-left: 30px;
 }
 
-.third-container-media img{
+.third-container-media img {
   position: relative;
   width: 30vw;
   z-index: 2;
 }
 
-.third-container-media video{
+.third-container-media video {
   position: absolute;
   width: 60%;
   right: 100px;
   top: 50px;
 }
 
-.third-container-info{
+.third-container-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 30vw;
 }
 
-.third-container-info h2{
+.third-container-info h2 {
   font-size: 3rem;
   font-weight: 900;
   padding-bottom: 20px;
 }
 
-.third-container-info p{
+.third-container-info p {
   flex-wrap: wrap;
   font-size: 1.5rem;
 }
 
 /* 4th Container */
 
-.fourth-container{
+.fourth-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   max-width: 100vw;
   height: 65vh;
-  color: white; 
+  color: white;
   background-color: black;
 }
 
-.fourth-container-media{
+.fourth-container-media {
   position: relative;
   padding-left: 30px;
 }
 
-.fourth-container-media img{
+.fourth-container-media img {
   position: relative;
   width: 30vw;
   z-index: 2;
 }
 
-.fourth-container-info{
+.fourth-container-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -296,42 +297,42 @@ form h3{
   padding-right: 10px;
 }
 
-.fourth-container-info h2{
+.fourth-container-info h2 {
   font-size: 3rem;
   font-weight: 900;
   padding-bottom: 20px;
 }
 
-.fourth-container-info p{
+.fourth-container-info p {
   flex-wrap: wrap;
   font-size: 1.5rem;
 }
 
 /* 5th Section */
 
-.fifth-container{
+.fifth-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   max-width: 100vw;
   height: 65vh;
-  color: white; 
+  color: white;
   background-color: black;
 }
 
-.fifth-container-media{
+.fifth-container-media {
   position: relative;
   padding-left: 30px;
 }
 
-.fifth-container-media img{
+.fifth-container-media img {
   position: relative;
   width: 30vw;
   z-index: 2;
 }
 
-.fifth-container-info{
+.fifth-container-info {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -339,38 +340,38 @@ form h3{
   padding-left: 10px;
 }
 
-.fifth-container-info h2{
+.fifth-container-info h2 {
   font-size: 3rem;
   font-weight: 900;
   padding-bottom: 20px;
 }
 
-.fifth-container-info p{
+.fifth-container-info p {
   flex-wrap: wrap;
   font-size: 1.5rem;
 }
 
 /* FAQs Section */
 
-.FAQ{
+.FAQ {
   display: flex;
   margin: 0px auto;
   padding: 40px;
   max-width: 100vw;
   height: 100vh;
-  color: white; 
+  color: white;
   background-color: black;
   flex-direction: column;
 }
 
-.FAQ-heading h2{
+.FAQ-heading h2 {
   text-align: center;
   font-size: 3rem;
   font-weight: 900;
   padding: 20px;
 }
 
-.btn-section{
+.btn-section {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
@@ -379,7 +380,7 @@ form h3{
   width: 60vw;
 }
 
-.FAQ-btns{
+.FAQ-btns {
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -390,23 +391,21 @@ form h3{
   text-align: start;
   background-color: rgb(45, 45, 45);
   border: none;
-  color: #e5e5e5;
-  &:hover{
+  color: white;
+  &:hover {
     cursor: pointer;
     background-color: rgb(68, 68, 68);
-    transition: all 0.5s  ;
+    transition: all 0.5s;
   }
 }
 
-.FAQ form{
+.FAQ form {
   margin: auto;
 }
 
-
-
 /* Footer */
 
-footer{
+footer {
   height: 50vh;
   background-color: black;
   max-width: 100vw;
@@ -417,25 +416,25 @@ footer{
   padding: 1rem 8rem;
 }
 
-footer button{
+footer button {
   width: 8em;
 }
 
-#btn-footer{
+#btn-footer {
   margin: 0;
   border-radius: 5px;
-  color: #e5e5e5;
+  color: white;
   font-weight: bold;
 }
 
-.footer-btn{
+.footer-btn {
   display: flex;
   justify-content: flex-start;
   margin: 0 auto;
   width: 60vw;
 }
 
-.footer-links ul{
+.footer-links ul {
   width: 60vw;
   display: grid;
   list-style-type: none;
@@ -446,12 +445,39 @@ footer button{
   gap: 1.3rem;
 }
 
-.footer-links ul li{
+.footer-links ul li {
   /* margin: 0.5rem 0; */
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
-  &:hover{
-    cursor:pointer
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  nav {
+    width: 100vw;
+    padding: 25px;
+  }
+  .nav-buttons {
+    margin: 0;
+  }
+  .main-container {
+    background: url("/Media/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    overflow: hidden;
+  }
+ 
+}
+
+@media only screen and (max-width: 720px) and (min-width: 500px){
+  .second-container-media img,
+  .third-container-media img,
+  .fourth-container-media img,
+  .fifth-container-media img {
+    width: 80vw;
   }
 }

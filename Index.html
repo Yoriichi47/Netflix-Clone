@@ -6,6 +6,11 @@
     <title>Netflix | Saravjot Singh Bharaj</title>
     <link rel="stylesheet" href="Style.css" />
     <link rel="icon" href="/Media/Icon.webp" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 720px)"
+      href="/720p.css"
+    />
     <script
       src="https://kit.fontawesome.com/76005f9957.js"
       crossorigin="anonymous"
@@ -15,15 +20,20 @@
     <!-- Start of first section -->
 
     <div class="main-container">
-      <nav>
-        <div class="nav-logo">
-          <img src="/Media/logo.svg" alt="" />
-        </div>
-        <div class="nav-buttons">
-          <button class="btn-1" id="btn">English</button>
-          <button class="btn-2" id="btn">Sign In</button>
-        </div>
-      </nav>
+      <header class="Header-sec">
+        <nav>
+          <div class="nav-logo">
+            <img src="/Media/logo.svg" alt="" />
+          </div>
+          <div class="nav-buttons">
+            <button class="btn-1" id="btn">English</button>
+            <button class="btn-3" id="btn">
+              <i class="fa-solid fa-language"></i>
+            </button>
+            <button class="btn-2" id="btn">Sign In</button>
+          </div>
+        </nav>
+      </header>
       <div class="main-image"></div>
       <div class="main-page">
         <h1>Unlimited movies, TV shows, and more</h1>
@@ -176,8 +186,8 @@
       </div>
       <form action="">
         <h3>
-          Ready to watch? Enter your email or mobile number to create or
-          restart your membership.
+          Ready to watch? Enter your email or mobile number to create or restart
+          your membership.
         </h3>
         <div class="form-details">
           <input
@@ -224,7 +234,8 @@
         </ul>
       </div>
       <div class="footer-btn">
-        <button class="btn-1" id="btn-footer">English</button>      
+        <button class="btn-1" id="btn-footer">English</button>
+        </button>
       </div>
     </footer>
   </body>
