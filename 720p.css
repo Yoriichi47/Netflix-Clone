@@ -40,7 +40,7 @@ nav {
 /* Main section */
 
 .main-container {
-  background: url("/Media/background.jpg");
+  background: url("Media/background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   height: 80vh;
