@@ -191,25 +191,6 @@ form h3 {
   margin: 10px auto;
 }
 
-/* Footer config */
-
-footer {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-links ul {
-  width: 90vw;
-  margin: 0 auto;
-  grid-template-columns: auto auto;
-}
-
-.footer-btn{
-    width: 90vw;
-}
-
 /* gap */
 
 .gap {
